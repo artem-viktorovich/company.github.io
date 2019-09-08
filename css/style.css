@@ -84,8 +84,10 @@ p{
 /*ÃÂ²Ã‘â€šÃÂ¾Ã‘â‚¬ÃÂ¾ÃÂ¹ ÃÂ±ÃÂ»ÃÂ¾ÃÂº*/
 
 .wrapper{
-	display: flex;
-	width: 78%;
+	display: grid;
+	grid-template-columns: 50% 52%;
+	width: 100%;
+	max-width: 1100px;
 	margin: 0 auto;
 	padding: 100px 0 120px 0;
 }
